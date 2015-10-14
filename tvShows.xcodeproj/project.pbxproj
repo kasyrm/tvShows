@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D070FC11BC3ECBA00091371 /* OpisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D070FC01BC3ECBA00091371 /* OpisViewController.swift */; };
+		8D7C42631BCC0B5B00343EEF /* Fetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7C42621BCC0B5B00343EEF /* Fetch.swift */; };
+		8D7C42641BCC7AD400343EEF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA48811BB43F0A000D66B8 /* FirstViewController.swift */; };
+		8D8668861BBC7BA10042F430 /* OdcinkiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8668851BBC7BA10042F430 /* OdcinkiViewController.swift */; };
+		8DBA48801BB43F0A000D66B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA487F1BB43F0A000D66B8 /* AppDelegate.swift */; };
+		8DBA48821BB43F0A000D66B8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA48811BB43F0A000D66B8 /* FirstViewController.swift */; };
+		8DBA48841BB43F0A000D66B8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA48831BB43F0A000D66B8 /* SecondViewController.swift */; };
+		8DBA48871BB43F0A000D66B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DBA48851BB43F0A000D66B8 /* Main.storyboard */; };
+		8DBA48891BB43F0A000D66B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DBA48881BB43F0A000D66B8 /* Images.xcassets */; };
+		8DBA488C1BB43F0A000D66B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DBA488A1BB43F0A000D66B8 /* LaunchScreen.xib */; };
+		8DBA48981BB43F0A000D66B8 /* tvShowsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA48971BB43F0A000D66B8 /* tvShowsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DBA48921BB43F0A000D66B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DBA48721BB43F0A000D66B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DBA48791BB43F0A000D66B8;
+			remoteInfo = Nightlife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D070FC01BC3ECBA00091371 /* OpisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpisViewController.swift; sourceTree = "<group>"; };
+		8D7C42621BCC0B5B00343EEF /* Fetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Fetch.swift; path = ../Fetch.swift; sourceTree = "<group>"; };
+		8D8668851BBC7BA10042F430 /* OdcinkiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OdcinkiViewController.swift; sourceTree = "<group>"; };
+		8DBA487A1BB43F0A000D66B8 /* tvShows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvShows.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBA487E1BB43F0A000D66B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DBA487F1BB43F0A000D66B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DBA48811BB43F0A000D66B8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		8DBA48831BB43F0A000D66B8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		8DBA48861BB43F0A000D66B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DBA48881BB43F0A000D66B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8DBA488B1BB43F0A000D66B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8DBA48911BB43F0A000D66B8 /* tvShowsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvShowsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBA48961BB43F0A000D66B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DBA48971BB43F0A000D66B8 /* tvShowsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvShowsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DBA48771BB43F0A000D66B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBA488E1BB43F0A000D66B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DBA48711BB43F0A000D66B8 = {
+			isa = PBXGroup;
+			children = (
+				8DBA487C1BB43F0A000D66B8 /* tvShows */,
+				8DBA48941BB43F0A000D66B8 /* tvShowsTests */,
+				8DBA487B1BB43F0A000D66B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DBA487B1BB43F0A000D66B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DBA487A1BB43F0A000D66B8 /* tvShows.app */,
+				8DBA48911BB43F0A000D66B8 /* tvShowsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DBA487C1BB43F0A000D66B8 /* tvShows */ = {
+			isa = PBXGroup;
+			children = (
+				8D7C42621BCC0B5B00343EEF /* Fetch.swift */,
+				8DBA487F1BB43F0A000D66B8 /* AppDelegate.swift */,
+				8DBA48811BB43F0A000D66B8 /* FirstViewController.swift */,
+				8DBA48831BB43F0A000D66B8 /* SecondViewController.swift */,
+				8DBA48851BB43F0A000D66B8 /* Main.storyboard */,
+				8DBA48881BB43F0A000D66B8 /* Images.xcassets */,
+				8DBA488A1BB43F0A000D66B8 /* LaunchScreen.xib */,
+				8DBA487D1BB43F0A000D66B8 /* Supporting Files */,
+				8D8668851BBC7BA10042F430 /* OdcinkiViewController.swift */,
+				8D070FC01BC3ECBA00091371 /* OpisViewController.swift */,
+			);
+			name = tvShows;
+			path = Nightlife;
+			sourceTree = "<group>";
+		};
+		8DBA487D1BB43F0A000D66B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DBA487E1BB43F0A000D66B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DBA48941BB43F0A000D66B8 /* tvShowsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DBA48971BB43F0A000D66B8 /* tvShowsTests.swift */,
+				8DBA48951BB43F0A000D66B8 /* Supporting Files */,
+			);
+			name = tvShowsTests;
+			path = NightlifeTests;
+			sourceTree = "<group>";
+		};
+		8DBA48951BB43F0A000D66B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DBA48961BB43F0A000D66B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DBA48791BB43F0A000D66B8 /* tvShows */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DBA489B1BB43F0A000D66B8 /* Build configuration list for PBXNativeTarget "tvShows" */;
+			buildPhases = (
+				8DBA48761BB43F0A000D66B8 /* Sources */,
+				8DBA48771BB43F0A000D66B8 /* Frameworks */,
+				8DBA48781BB43F0A000D66B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvShows;
+			productName = Nightlife;
+			productReference = 8DBA487A1BB43F0A000D66B8 /* tvShows.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DBA48901BB43F0A000D66B8 /* tvShowsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DBA489E1BB43F0A000D66B8 /* Build configuration list for PBXNativeTarget "tvShowsTests" */;
+			buildPhases = (
+				8DBA488D1BB43F0A000D66B8 /* Sources */,
+				8DBA488E1BB43F0A000D66B8 /* Frameworks */,
+				8DBA488F1BB43F0A000D66B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DBA48931BB43F0A000D66B8 /* PBXTargetDependency */,
+			);
+			name = tvShowsTests;
+			productName = NightlifeTests;
+			productReference = 8DBA48911BB43F0A000D66B8 /* tvShowsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DBA48721BB43F0A000D66B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Martyna Rysak";
+				TargetAttributes = {
+					8DBA48791BB43F0A000D66B8 = {
+						CreatedOnToolsVersion = 6.4;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					8DBA48901BB43F0A000D66B8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8DBA48791BB43F0A000D66B8;
+					};
+				};
+			};
+			buildConfigurationList = 8DBA48751BB43F0A000D66B8 /* Build configuration list for PBXProject "tvShows" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DBA48711BB43F0A000D66B8;
+			productRefGroup = 8DBA487B1BB43F0A000D66B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DBA48791BB43F0A000D66B8 /* tvShows */,
+				8DBA48901BB43F0A000D66B8 /* tvShowsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DBA48781BB43F0A000D66B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBA48871BB43F0A000D66B8 /* Main.storyboard in Resources */,
+				8DBA488C1BB43F0A000D66B8 /* LaunchScreen.xib in Resources */,
+				8DBA48891BB43F0A000D66B8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBA488F1BB43F0A000D66B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DBA48761BB43F0A000D66B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D7C42631BCC0B5B00343EEF /* Fetch.swift in Sources */,
+				8DBA48841BB43F0A000D66B8 /* SecondViewController.swift in Sources */,
+				8D070FC11BC3ECBA00091371 /* OpisViewController.swift in Sources */,
+				8DBA48801BB43F0A000D66B8 /* AppDelegate.swift in Sources */,
+				8D8668861BBC7BA10042F430 /* OdcinkiViewController.swift in Sources */,
+				8DBA48821BB43F0A000D66B8 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DBA488D1BB43F0A000D66B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBA48981BB43F0A000D66B8 /* tvShowsTests.swift in Sources */,
+				8D7C42641BCC7AD400343EEF /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DBA48931BB43F0A000D66B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DBA48791BB43F0A000D66B8 /* tvShows */;
+			targetProxy = 8DBA48921BB43F0A000D66B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DBA48851BB43F0A000D66B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DBA48861BB43F0A000D66B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DBA488A1BB43F0A000D66B8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DBA488B1BB43F0A000D66B8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DBA48991BB43F0A000D66B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DBA489A1BB43F0A000D66B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DBA489C1BB43F0A000D66B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nightlife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = tvShows;
+			};
+			name = Debug;
+		};
+		8DBA489D1BB43F0A000D66B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nightlife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = tvShows;
+			};
+			name = Release;
+		};
+		8DBA489F1BB43F0A000D66B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NightlifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = tvShowsTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nightlife.app/Nightlife";
+			};
+			name = Debug;
+		};
+		8DBA48A01BB43F0A000D66B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NightlifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = tvShowsTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nightlife.app/Nightlife";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DBA48751BB43F0A000D66B8 /* Build configuration list for PBXProject "tvShows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBA48991BB43F0A000D66B8 /* Debug */,
+				8DBA489A1BB43F0A000D66B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DBA489B1BB43F0A000D66B8 /* Build configuration list for PBXNativeTarget "tvShows" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBA489C1BB43F0A000D66B8 /* Debug */,
+				8DBA489D1BB43F0A000D66B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DBA489E1BB43F0A000D66B8 /* Build configuration list for PBXNativeTarget "tvShowsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBA489F1BB43F0A000D66B8 /* Debug */,
+				8DBA48A01BB43F0A000D66B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DBA48721BB43F0A000D66B8 /* Project object */;
+}
