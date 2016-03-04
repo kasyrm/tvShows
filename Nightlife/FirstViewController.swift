@@ -64,7 +64,7 @@ class FirstViewController: UIViewController, UISearchBarDelegate {
     
     func setLabels(weatherData: NSData){
         var jsonError: NSError?
-        let json = NSJSONSerialization.JSONObjectWithData(weatherData, options: nil, error: &jsonError) as! NSArray
+        let json = (try! NSJSONSerialization.JSONObjectWithData(weatherData, options: [])) as! NSArray
         if json.count > 0 {
         if let json1 = json[0] as? NSDictionary {
             if let show = json1["show"] as? NSDictionary {
